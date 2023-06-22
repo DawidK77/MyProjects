@@ -1,0 +1,155 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+ul.menu{
+    padding-left: 0.5em;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    list-style: none;
+}
+li.menu{
+    display: flex;
+    align-items: center;
+    padding: 0.8em;
+}
+li.menu:hover{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    cursor: pointer;
+    background: lightgrey;
+}
+img.logo{
+    padding-bottom: 2em;
+    width: 7em;
+}
+img.logo:hover{
+    cursor: pointer;
+}
+nav{
+    background-color: white;
+    width: 21em;
+    position: fixed;
+    border-right: 1px solid;
+    border-color: thistle;
+    height: 100%;
+}
+img.icons{
+    width: 2em;
+    mix-blend-mode: multiply;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    margin: auto;
+    max-width: 50em;
+    height: 100%;
+}
+div.profileinfo{
+    display: flex;
+    padding-top: 1em;
+}
+img.profilepic{
+    width: 9em;
+    padding-right: 4em;
+}
+img.profilepic:hover{
+    cursor: pointer;
+}
+.edit{
+    height: 2em;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left: 2em;
+}
+.edit:hover{
+    cursor: pointer;
+}
+div.profileinfo{
+    height: 10em;
+    display: flex;
+}
+div.profileinforight{
+    text-align: left;
+}
+div.profilemenu{
+    display: flex;
+    align-items: center;
+}
+div.followers{
+    display: flex;
+}
+span.post{
+    margin-right: 1em;
+}
+span.followers{
+    margin-right: 1em;
+}
+span.followers:hover{
+    cursor: pointer;
+}
+div.postsection{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.posts{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5em;
+}
+div.posts:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:90em){
+    nav{
+        width: 9em;
+    }
+}
+@media screen and (max-width:68em){
+    nav{
+        width: 4em;
+    }
+    .navtext{
+        display: none !important;
+    }
+    img.logo{
+        display: none !important;
+    }
+}
+@media screen and (max-width:58em){
+    ul.menu{
+        display: flex;
+        justify-content: baseline;
+        align-self: flex-end;
+        flex-direction: row;
+        list-style: none;
+    }
+    li.menu{
+        display: flex;
+        align-items: center;
+        padding: 0.4em;
+    }
+    nav{
+        justify-content: space-b;
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        bottom: 0em;
+        border-right: 1px solid;
+        border-color: thistle;
+        height: 10%;
+    }
+    div.followers{
+        display: none !important;
+    }
+    div.posts{
+        width: 10em;
+    }
+    .edit{
+        font-size: 0.6em;
+    }
+}

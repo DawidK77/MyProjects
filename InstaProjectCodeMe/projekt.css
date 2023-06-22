@@ -1,0 +1,205 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+ul.menu{
+    padding-left: 0.5em;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    list-style: none;
+}
+li.menu{
+    display: flex;
+    align-items: center;
+    padding: 0.8em;
+}
+li.menu:hover{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    cursor: pointer;
+    background: lightgrey;
+}
+img.logo{
+    padding-bottom: 2em;
+    width: 7em;
+}
+img.logo:hover{
+    cursor: pointer;
+}
+img.icons{
+    width: 2em;
+    mix-blend-mode: multiply;
+}
+main{
+    margin: auto;
+    max-width: 29em;
+    height: 100%;
+}
+div.post{
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: thistle;
+    background-color: white;
+    width: 100%;
+    height: 90%;
+}
+nav{
+    background-color: white;
+    width: 21em;
+    position: fixed;
+    border-right: 1px solid;
+    border-color: thistle;
+    height: 100%;
+}
+div.posttop{
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+img.avatars{
+    width: 3em;
+}
+img.avatars:hover{
+    cursor: pointer;
+}
+p.nickname{
+    font-weight: bold;
+}
+p.nickname:hover{
+    color: gray;
+    cursor: pointer;
+}
+img.postimg{
+    width: 100%;
+}
+div.description{
+    padding: 0.5em;
+}
+span.follow{
+    color: cornflowerblue;
+}
+span.follow:hover{
+    cursor: pointer;
+}
+p.likes{
+    font-weight: bold;
+}
+p.likes:hover{
+    cursor: pointer;
+}
+span.username{
+    font-weight: bold;
+}
+span.username:hover{
+    cursor: pointer;
+}
+img.emote{
+    width: 2em;
+}
+img.emote:hover{
+    cursor: pointer;
+}
+input.comment{
+    padding: 0.5em;
+    width: 27em;
+    border-style: none;
+}
+hr.commentline{
+    color: thistle;
+}
+button.post{
+    width: 2em;
+    border: none;
+    color: cornflowerblue;
+    background-color: white;
+}
+button.post:hover{
+    cursor: pointer;
+}
+div.story{
+    overflow-x: scroll;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: thistle;
+    background-color: white;
+    width: 100%;
+}
+ul.stories{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+li.stories{
+    padding-right: 1.5em;
+}
+img.stories{
+    width: 4em;
+}
+div.reactions{
+    display: flex;
+}
+.reactions .save{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img.reaction:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img.stories:hover{
+    cursor: pointer;
+}
+div.comment-section{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:75em){
+    nav{
+        width: 9em;
+    }
+}
+@media screen and (max-width:48em){
+    nav{
+        width: 4em;
+    }
+    .navtext{
+        display: none !important;
+    }
+    img.logo{
+        display: none !important;
+    }
+}
+@media screen and (max-width:36em){
+    ul.menu{
+        display: flex;
+        justify-content: baseline;
+        align-self: flex-end;
+        flex-direction: row;
+        list-style: none;
+    }
+    li.menu{
+        display: flex;
+        align-items: center;
+        padding: 0.4em;
+    }
+    nav{
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        bottom: 0em;
+        border-right: 1px solid;
+        border-color: thistle;
+        height: 10%;
+    }
+}
