@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.heading {
+  padding: 0.2em;
+  background-color: #111111;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+.pizzaEventIcon{
+  margin-left: 3em;
+  width: 2em;
+}
+.eventWord{
+  font-weight: lighter;
+}
+.content{
+  margin-left: 1em;
+  background-color: black;
+}
+.leftContent{
+  width: 31%;
+  float: left;
+}
+.leftFormDiv{
+  padding-left: 8em;
+}
+.contentHeading{
+  padding-left: 0.5em;
+}
+.formInput{
+  padding: 0.5em;
+  display: block;
+}
+.textInputStyling{
+  width: 25em;
+  padding: 0.4em;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: thistle;
+}
+.vipCheckbox{
+  display: block;
+}
+.pizzaSelection{
+  width: 25em;
+  padding: 0.4em;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: thistle;
+}
+.submitButton{
+  color: white;
+  background-color: green;
+  border: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 0.8em;
+}
+.registeredUsersList{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width: 75%;
+  margin: 0.3em;
+  padding: 0.5em;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: thistle;
+}
+.registeredUsersList:hover{
+  background-color: thistle;
+  padding: 1em;
+}
+.vipIcon{
+  width: 1.5em;
+}
+.vipIconDetails{
+  width: 3em;
+}
+.userIcon{
+  width: 1.5em;
+}
+.middleContent{
+  text-align: left;
+  padding: 0.5em;
+  width: 31%;
+  float: left;
+}
+.invitePopup{
+  margin-top: 5em;
+}
+.inviteButtons{
+  text-align: center;
+  padding-right: 6em;
+}
+.inviteConfirmButton{
+  color: white;
+  background-color: green;
+  border: none;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0.8em;
+}
+.inviteDeclineButton{
+  color: white;
+  background-color: red;
+  border: none;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0.8em;
+}
+.rightContent{
+  padding: 0.5em;
+  width: 31%;
+  float: left;
+}
+.userDetails{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: thistle;
+  padding: 1em;
+}
+.pizzaImages{
+  width: 100%;
+}
